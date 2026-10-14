@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest leadgen/tests/test_inau.py leadgen/tests/test_v4_fixes.py leadgen/tests/test_overture_schema.py -v)",
+      "Bash(python -m pytest leadgen/tests -q)",
+      "Bash(/e/leadgen_agent/leadgen/.venv/bin/python -m pytest leadgen/tests/test_inau.py leadgen/tests/test_v4_fixes.py leadgen/tests/test_overture_schema.py -v)",
+      "Bash(/e/leadgen_agent/leadgen/.venv/bin/python -m pytest leadgen/tests -q)",
+      "Bash(python -c \"import pytest; print\\(pytest.__version__\\)\")",
+      "Bash(find /usr/local /opt/homebrew /usr/bin -name python3.14 -type f 2>/dev/null; which -a python3 python 2>/dev/null)",
+      "Bash(/e/leadgen_agent/.venv/bin/python -m pytest leadgen/tests/test_inau.py leadgen/tests/test_v4_fixes.py leadgen/tests/test_overture_schema.py -v)",
+      "Bash(/e/leadgen_agent/.venv/bin/python -m pytest leadgen/tests -q)",
+      "Bash(/e/leadgen_agent/.venv/bin/python -m leadgen --list)",
+      "Bash(ls /c/Users/alakh/AppData/Local/Microsoft/WindowsApps/ 2>/dev/null | head -5; echo \"---\"; ls \"/c/Program Files/Python314/\" 2>/dev/null | head -5)",
+      "Bash(which python3.14 2>/dev/null; which python3 2>/dev/null; ls /usr/bin/python3* 2>/dev/null; ls /home/alakh/.local/bin/python* 2>/dev/null)",
+      "Bash(cat /e/leadgen_agent/leadgen/.venv/bin/python3.14 2>/dev/null || echo \"no python3.14 bin\"; ls /home/alakh/.hermes/tools/ 2>/dev/null)",
+      "Bash(\"/c/Program Files/Python314/python.exe\" --version)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pytest leadgen/tests/test_inau.py leadgen/tests/test_v4_fixes.py leadgen/tests/test_overture_schema.py -v)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pytest leadgen/tests -q)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m leadgen --list)",
+      "Bash(/home/alakh/.hermes/tools/python-3.14.7+20260901-linux-x64/bin/python3.14 -c \"import pytest; print\\(pytest.__version__\\)\")",
+      "Bash(/mnt/e/leadgen_agent/leadgen/.venv/bin/python -m pytest leadgen/tests/test_inau.py leadgen/tests/test_v4_fixes.py leadgen/tests/test_overture_schema.py -v)",
+      "Bash(/mnt/e/leadgen_agent/leadgen/.venv/bin/python -m leadgen --list)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pip list)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pip install -e . pytest)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pytest leadgen/tests/test_inau.py leadgen/tests/test_v4_fixes.py -v --tb=short)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pytest leadgen/tests/test_overture_schema.py -v)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pip install phonenumbers)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m pytest leadgen/tests -q --tb=no)",
+      "Bash(/c/\"Program Files/Python314\"/python.exe -m leadgen --help)",
+      "Bash(lsb_release -d)"
+    ]
+  }
+}

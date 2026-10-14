@@ -1,0 +1,11 @@
+{
+  "name": "leadgen-api",
+  "regions": ["sin"],
+  "healthcheckPath": "/docs",
+  "env": {
+    "DATABASE_URL": "postgresql://leadgen:leadgen123@${RAILWAY_POSTGRESQL_HOST}:5432/leadgen",
+    "LEADGEN_SECRET_KEY": "your-secret-key-here",
+    "ADMIN_EMAIL": "admin@leadgen.local",
+    "ADMIN_PASSWORD": "changeme"
+  }
+}
